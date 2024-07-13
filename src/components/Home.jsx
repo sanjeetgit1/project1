@@ -44,8 +44,11 @@ const Home = () => {
                 animationDelay:"0.3s",
               }}
               >
-              <AiFillGoogleCircle/>
-              <p>Google</p>
+              
+              {/* */}
+              <a href="https://www.google.com/"><AiFillGoogleCircle/> 
+             <p>  Google</p>
+              </a>
 
             </div>
             <div
@@ -53,8 +56,9 @@ const Home = () => {
                 animationDelay:"0.5s",
               }}
               >
-              <AiFillAmazonCircle/>
-              <p>Amazon</p>
+                <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=674842289437&hvpos=&hvnetw=g&hvrand=636888361422669764&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9300266&hvtargid=kwd-10573980&hydadcr=14453_2316415&gad_source=1"> <AiFillAmazonCircle/>
+              <p>Amazon</p></a>
+             
 
             </div>
             <div
@@ -62,8 +66,9 @@ const Home = () => {
                 animationDelay:"0.7s",
               }}
               >
-              <AiFillYoutube/>
-              <p>Youtube</p>
+              <a href="https://www.youtube.com/"> <AiFillYoutube/>
+              <p>Youtube</p></a>
+             
 
             </div>
             <div
@@ -71,8 +76,9 @@ const Home = () => {
                 animationDelay:"0.9s",
               }}
               >
-              <AiFillInstagram/>
-              <p>Instagram</p>
+                <a href="https://www.instagram.com/"><AiFillInstagram/>
+              <p>Instagram</p></a>
+              
 
             </div>
           </article>
